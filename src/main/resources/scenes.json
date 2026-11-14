@@ -1,0 +1,88 @@
+{
+  "source": "VIDEO.mp4",
+  "fps": 60,
+  "height": 1080,
+  "crf": 16,
+  "preset": "veryfast",
+  "embed": {
+    "width": 1280,
+    "fps": 24,
+    "q": 7
+  },
+  "scenes": [
+    {
+      "name": "eon_y_su_padre",
+      "start": 17.7,
+      "end": 51.3,
+      "desc": "Eon y el anciano: el regalo"
+    },
+    {
+      "name": "guardian_phora",
+      "start": 56.8,
+      "end": 219.1,
+      "desc": "El Guardian, Phora y la exigencia de la Ruleta"
+    },
+    {
+      "name": "montana",
+      "start": 229.6,
+      "end": 238.5,
+      "desc": "La montana",
+      "crop": "1280:512:0:88"
+    },
+    {
+      "name": "aldea",
+      "start": 238.5,
+      "end": 258.3,
+      "desc": "Recorrido por la aldea",
+      "crop": "1280:364:0:88"
+    },
+    {
+      "name": "ritual_fogata",
+      "start": 258.7,
+      "end": 284.8,
+      "desc": "El ritual en la fogata",
+      "crop": "1280:364:0:88"
+    },
+    {
+      "name": "historia_phora",
+      "start": 288.1,
+      "end": 357.0,
+      "desc": "La historia: Phora, Sarven y el Guardian"
+    },
+    {
+      "name": "caida_fogata",
+      "start": 357.0,
+      "end": 371.5,
+      "desc": "Todos caen hacia la fogata",
+      "crop": "1280:604:0:36"
+    },
+    {
+      "name": "reviil_caida",
+      "start": 442.0,
+      "end": 480.0,
+      "desc": "Reviil cae del cielo rojo",
+      "delogo": "x=12:y=8:w=350:h=165",
+      "delogo_until": 21.5
+    },
+    {
+      "name": "reviil_cupula",
+      "start": 480.0,
+      "end": 518.5,
+      "desc": "Reviil ataca y aparece la cupula",
+      "autocrop": true
+    },
+    {
+      "name": "dialogo_jefe",
+      "start": 518.5,
+      "end": 581.5,
+      "desc": "El dialogo con el jefe",
+      "autocrop": true
+    },
+    {
+      "name": "ruleta_final",
+      "start": 582.5,
+      "end": 604.5,
+      "desc": "La ruleta se abre"
+    }
+  ]
+}
